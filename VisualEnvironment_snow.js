@@ -49,8 +49,8 @@ function setup() {
 
 function draw() {
 
-
-  image(img, 0, 0);
+  
+  image(img, 0, 0, displayWidth, displayHeight);
 
   if (p === true) {
     now_x = mouseX - pmouseX;
