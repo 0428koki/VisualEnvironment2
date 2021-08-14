@@ -27,7 +27,7 @@ function setup() {
   createCanvas(displayWidth,displayHeight);
 
   img = loadImage("snow_tate.png");
-  img_snow = loadImage("snowball_stroke .png");
+  img_snow = loadImage("snowball_stroke.png");
 
   //img_snow.resize(r * 2, r * 2);
 
