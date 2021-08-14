@@ -27,6 +27,8 @@ function setup() {
   img = loadImage("snow_tate.png");
   img_snow = loadImage("snowball_stroke.png");
 
+  //img_snow.resize(r * 2, r * 2);
+
   // for (var i = 0; i < 2; i++) {
   //   m_x[i] = 0;
   //   m_y[i] = 0;
@@ -79,7 +81,7 @@ function draw() {
   
   // println(next_x, next_y);
 
-  pushMatrix();
+  push();
     translate(X, Y);
     rotate(radians(theta_x));
     fill(235, 252, 252);
