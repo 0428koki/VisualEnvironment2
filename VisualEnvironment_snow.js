@@ -19,6 +19,8 @@ var p = false;
 
 var movecount = 100;
 
+var theta_x =180;
+
 // let width, height;
 
 function setup() {
