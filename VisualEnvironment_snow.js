@@ -90,7 +90,7 @@ function draw() {
     noStroke();
     img_snow.resize(r * 2, r * 2);
     image(img_snow, 0, 0);
-  popMatrix();
+  pop();
   //fill(235, 252, 252);
   //noStroke();
   // ellipse(X, Y, r * 2, r * 2);
