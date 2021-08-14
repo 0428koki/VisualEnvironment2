@@ -108,7 +108,7 @@ function draw() {
     next_y++;
   }
   if(next_x != 0 || next_y != 0){
-    r += 0.01;
+    r += 0.08;
   }
 
 
@@ -130,7 +130,8 @@ function draw() {
 }
 
 function mousePressed() {
-  movecount = movecount + 10;
+  movecount = movecount + 200;
+  theta_x *= 1/movecount;
   p = true;
 }
 
